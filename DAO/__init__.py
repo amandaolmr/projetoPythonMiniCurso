@@ -2,7 +2,7 @@ import psycopg2
 
 # Estabelecendo a conexão com o Banco de dados
 def conectardb():
-    conexao = psycopg2.connect(database="testeMinicurso",
+    conexao = psycopg2.connect(database="minicursobd",
                                host="localhost",
                                user="postgres",
                                password="1234",
